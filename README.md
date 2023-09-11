@@ -18,7 +18,7 @@ sudo /opt/codelogic/pre_start_codelogic.sh
 ![image](https://github.com/CodeLogicExamples/cl-rhel-notes/assets/89859574/66233cef-8627-43b7-b549-bebb99aacd69)
 
 # Install agents:
-wget http://<codelogic-host>/codelogic/server/packages/install_agents.tar
+wget http://codelogic-host/codelogic/server/packages/install_agents.tar
 
 tar -xvf install_agents.tar
 
