@@ -1,6 +1,6 @@
 # cl-rhel-notes
 # Acquire new package:
-wget http://repo.codelogic.com/redhat/RPMS/noarch/codelogic-23.14.11.noarch.rpm
+wget http://repo.codelogic.com/redhat/RPMS/noarch/codelogic-23.15.6.noarch.rpm
 
 # Uninstall agents:
 sudo dnf erase codelogic-java codelogic-sql
@@ -9,7 +9,7 @@ sudo dnf erase codelogic-java codelogic-sql
 sudo dnf erase codelogic
 
 # Install Codelogic:
-sudo dnf install -y ./codelogic-23.14.11.noarch.rpm
+sudo dnf install -y ./codelogic-23.15.6.noarch.rpm
 
 # Run pre-install script, then answer questions.
 sudo /opt/codelogic/pre_start_codelogic.sh
